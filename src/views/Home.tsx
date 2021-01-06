@@ -6,11 +6,6 @@
 
 import React from 'react';
 
-// import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-
-import Layout from "./components/Layout";
-
-import Home from "./views/Home";
 
 ///////////////////////////////////////////////////////////////////////////////////////////////
 /////////////                                                                             SETUP
@@ -18,21 +13,12 @@ import Home from "./views/Home";
 ///////////////////////////////////////////////////////////////////////////////////////////////
 /////////////                                                                COMPONENTS & LOGIC
 
-function App() {
-  // return (
-  //   <BrowserRouter>
-  //     <Layout>
-  //       <Routes>
-  //         <Route path="/" element={<Home/>} />
-  //       </Routes>
-  //     </Layout>
-  //   </BrowserRouter>
-  // );
+const Home: React.FC = () => {
   return (
-    <Layout>
-      <Home />
-    </Layout>
+    <div>
+      I'm home
+    </div>
   )
 }
 
-export default App;
+export default Home;
