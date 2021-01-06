@@ -6,6 +6,7 @@
 
 import React from 'react';
 
+import TreeOfLife from "../features/TreeOfLife/TreeOfLife";
 
 ///////////////////////////////////////////////////////////////////////////////////////////////
 /////////////                                                                             SETUP
@@ -16,7 +17,7 @@ import React from 'react';
 const Home: React.FC = () => {
   return (
     <div>
-      I'm home
+      <TreeOfLife />
     </div>
   )
 }

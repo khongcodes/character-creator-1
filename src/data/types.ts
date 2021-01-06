@@ -1,10 +1,11 @@
-type List = {
+export type List = {
   [key: string]: ListCategory;
 };
 
 // A category in a list can be an object, with keys being subcategories
-type ListCategory = {
-  groupName: string;
+export type ListCategory = {
+  // groupName NOT optional when list is complete
+  groupName?: string;
   specific?: string[];
-  subcategory?: List;
+  subcategories?: List;
 };

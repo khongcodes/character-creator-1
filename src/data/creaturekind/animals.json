@@ -27,7 +27,7 @@
   },
   "cnidarians": {
     "groupName": "cnidariankind",
-    "subgroups": {
+    "subcategories": {
       "jellyfish": {
         "groupName": "jellyfishkind",
         "specific": [
