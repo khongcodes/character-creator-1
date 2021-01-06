@@ -15,7 +15,8 @@ import { List, ListCategory } from "../../data/types";
 
 type TreeNodeProps = {
   animalCategory: ListCategory;
-  treeDepth: number;
+  thisNodeKey: string;
+  parentNodeKeys: string[];
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////
@@ -25,20 +26,19 @@ const TreeOfLife = () => {
   const animalDataAsList = rawAnimalData as List;
   const validAnimalGroupKeys = Object.keys(animalDataAsList).filter((animalGroupName) => animalDataAsList[animalGroupName].groupName !== undefined);
 
-  const listOfAnimalCategories: ListCategory[] = validAnimalGroupKeys.map((key: string) => animalDataAsList[key]);
-
-  console.log(listOfAnimalCategories);
+  console.log(validAnimalGroupKeys.map(key => animalDataAsList[key]));
 
   return (
     <div>
       {
-        listOfAnimalCategories.map((animalCategory: ListCategory, index: number) => {
+        validAnimalGroupKeys.map((key: string, index: number) => {
           return (
             <div key={index}>
               {/* i'm a base group */}
               <TreeNode 
-                animalCategory={animalCategory} 
-                treeDepth={1}
+                animalCategory={animalDataAsList[key]}
+                thisNodeKey={key}
+                parentNodeKeys={[]}
               />
             </div>
           )
@@ -48,29 +48,33 @@ const TreeOfLife = () => {
   );
 }
 
-const TreeNode: React.FC<TreeNodeProps> = ({animalCategory, treeDepth}) => {
+// recursive
+const TreeNode: React.FC<TreeNodeProps> = ({animalCategory, thisNodeKey, parentNodeKeys}) => {
+  console.log(`my name is ${thisNodeKey}. my parentNodeKeys are:`)
+  console.log(parentNodeKeys)
+  console.log()
+  console.log(animalCategory)
+
   const [visible, setVisible] = useState<boolean>(true);
   const toggleVisibility = () => {visible ? setVisible(false) : setVisible(true)};
 
   const groupName = animalCategory.groupName || "";
   const subcategoriesObj = animalCategory.subcategories;
   const specificMembers = animalCategory.specific;
-  const childTreeDepth: number = treeDepth + 1;
 
   return (
     <div style={{"marginLeft": "16px"}}>
       <p> groupName: {groupName} </p>
 
-      <button
-        onClick={toggleVisibility}
-      >
-        toggle specific members
+      <button onClick={toggleVisibility}>
+        toggle children visibility
       </button>
 
       <div
         style={{
-          "overflow": "hidden",
-          "height": visible ? "auto" : "0px"
+          "width": "50%",
+          "height": "64px",
+          "overflowY": "scroll"
         }}
       >
         {
@@ -80,18 +84,19 @@ const TreeNode: React.FC<TreeNodeProps> = ({animalCategory, treeDepth}) => {
             </p>
           )) : <></>
         }
-
+      </div>
         {
           subcategoriesObj ? Object.keys(subcategoriesObj).map((subcategoryKey: string, index: number) => (
             <TreeNode 
               key={index}
               animalCategory={subcategoriesObj[subcategoryKey]}
-              treeDepth={childTreeDepth}
+              thisNodeKey={subcategoryKey}
+              parentNodeKeys={[...parentNodeKeys, thisNodeKey]}
             />
           ))
           : <></>
         }
-      </div>
+      
     </div>
   )
 }
