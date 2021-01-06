@@ -1,0 +1,55 @@
+{
+  "eubacteria": {
+    "groupName": "eubacteriakind",
+    "specific": [
+      "hyperthermophilic-chemolithoautotrophic-bacteriakind",
+      "hyperthermophilic-obligately-anaerobic-fermentive-heterotrophic-bacteriakind",
+      "thermophilic-sulfate-reducing-bacteriakind",
+      "chemolithoautotrophic-bacteriumkind",
+      "nitrite-oxidizer-bacteriakind",
+      "thermophilic-sulfate-reducer-bacteriakind",
+      "acidophilic-iron-oxidizer-bacteriakind",
+      "aquatic-anaerobic-bacteriakind",
+      "green-nonsulfur-bacteriakind",
+      "hyperthermophilic-chemoheterotrophic-bacteriakind",
+      "cellulose-digesting-rumen-bacteriakind",
+      "purple-bacteriakind",
+      "peptidoglycan-less-cell-wall-budding-bacteriakind",
+      "obligate-intracellular-parasitic-bacteriakind",
+      "spiral-shaped-chemoheterotrophic-bacteriakind",
+      "pathogenkind",
+      "commensal-bacteriakind",
+      "free-living-bacteriakind",
+      "green-sulfur-bacteriakind",
+      "high-guanine-cytosine-gram-positive-bacteriakind",
+      "extremophilic-bacteriakind",
+      "cyanobacteriakind",
+      "oxygenic-photosynthetic-bacteriakind",
+      "chloroplastkind",
+      "fusobacteriakind",
+      "anaerobic-heterotrophic-bacteriakind",
+      "infectionkind",
+      "verrucomicrobiakind",
+      "terrestrial-parasitic-bacteriakind",
+      "aquatic-parasitic-bacteriakind",
+      "acidophilic-soil-bacteriakind",
+      "thermophilic-chemoorganotrophic-bacteriakind",
+      "gram-negative-DAP-less-cell-enveloped-bacteriakind"
+    ]
+  },
+  "archaea": {
+    "groupName": "archaeakind"
+  },
+  "amoebozoa": {
+    "groupName": "amoebakind",
+    "specific": [
+      "slime-moldkind"
+    ]
+  },
+  "excavata": {
+    "groupName": "excavatekind",
+    "specific": [
+      "free-living-unicellular-flagellatekind"
+    ]
+  }
+}

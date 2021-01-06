@@ -1,0 +1,260 @@
+{
+  "eubacteria": {
+    "dName": "true-bacteriakind",
+    "content": {
+      "aquificae": {
+        "dName": "hyperthermophilic-chemolithoautotrophic-bacteriakind"
+      },
+      "thermotogae": {
+        "dName": "hyperthermophilic-obligately-anaerobic-fermentive-heterotrophic-bacteriakind"
+      },
+      "thermodesulfobacteria": {
+        "dName": "thermophilic-sulfate-reducing-bacteriakind"
+      },
+      "chrysiogenetes": {
+        "dName": "chemolithoautotrophic-bacteriumkind"
+      },
+      "nitrospira": {
+        "dName": "nitrospirakind",
+        "content": [
+          {
+            "dName": "nitrite-oxidizer-bacteriakind"
+          },
+          {
+            "dName": "thermophilic-sulfate-reducer-bacteriakind"
+          },
+          {
+            "dNname": "acidophilic-iron-oxidizer-bacteriakind"
+          }
+        ]
+      },
+      "deferribacteres": {
+        "dName": "aquatic-anaerobic-bacteriakind"
+      },
+      "chloroflexi": {
+        "dName": "green-nonsulfur-bacteriakind"
+      },
+      "thermomicrobia": {
+        "dName": "hyperthermophilic-chemoheterotrophic-bacteriakind"
+      },
+      "fibrobacteres": {
+        "dName": "cellulose-digesting-rumen-bacteriakind"
+      },
+      "proteobacteria": {
+        "dName": "purple-bacteriakind"
+      },
+      "planctomycetes": {
+        "dName": "peptidoglycan-less-cell-wall-budding-bacteriakind"
+      },
+      "clamydiae": {
+        "dName": "obligate-intracellular-parasitic-bacteriakind"
+      },
+      "spirochaetes": {
+        "dName": "spiral-shaped-chemoheterotrophic-bacteriakind"
+      },
+      "bacteroidetes": {
+        "dName": "bacteroideteskind",
+        "content": [
+          {
+            "dName": "pathogenkind"
+          },
+          {
+            "dName": "commensal-bacteriakind"
+          },
+          {
+            "dName": "free-living-bacteriakind"
+          }
+        ]
+      },
+      "chlorobi": {
+        "dName": "green-sulfur-bacteriakind"
+      },
+      "actinobacteria": {
+        "dName": "high-guanine-cytosine-gram-positive-bacteriakind"
+      },
+      "deinococcusThermus": {
+        "dName": "extremophilic-bacteriakind"
+      },
+      "cyanobacteria": {
+        "dName": "cyanobacteriakind",
+        "content": [
+          {
+            "dName": "oxygenic-photosynthetic-bacteriakind"
+          },
+          {
+            "dName": "chloroplastkind"
+          }
+        ]
+      },
+      "firmicutes": {
+        "dName": "low-guanine-cytosine-gram-positive-bacteriakind"
+      },
+      "fusobacteria": {
+        "dName": "fusobacteriakind",
+        "content": [
+          {
+            "dName": "anaerobic-heterotrophic-bacteriakind"
+          },
+          {
+            "dName": "infectionkind"
+          }
+        ]
+      },
+      "verrucomicrobia": {
+        "dName": "verrucomicrobiakind",
+        "content": [
+          {
+            "dName": "terrestrial-parasitic-bacteriakind"
+          },
+          {
+            "dName": "aquatic-parasitic-bacteriakind"
+          }
+        ]
+      },
+      "acidobacteria": {
+        "dName": "acidophilic-soil-bacteriakind"
+      },
+      "dictyoglomi": {
+        "dName": "thermophilic-chemoorganotrophic-bacteriakind"
+      },
+      "gemmatimonadetes": {
+        "dName": "gram-negative-DAP-less-cell-enveloped-bacteriakind"
+      }
+    }
+  },
+  "eukaryotes": {
+    "dName": "eukaryotekind",
+    "content": {
+      "archaeplastida": {
+        "dName": "archaeplastidkind",
+        "content": {
+          "rhodophyta": {
+            "dName": "red-algaekind"
+          },
+          "greenPlants": {
+            "dName": "green-plantkind",
+            "content": {
+              "greenAlgae": {
+                "dName": "green-algaekind"
+              },
+              "embryophytes": {
+                "dName": "land-plantkind",
+                "content": {
+
+                }
+              }
+            }
+          }
+        }
+      },
+      "ophistokonts": {
+        "dName": "ophistokontkind",
+        "content": {
+          "metazoa": {
+            "dName": "animalkind",
+            "content": {
+              "porifera": {
+                "dName": "sea-spongekind",
+                "content": [
+                  {
+                    "dName": "glass-spongekind"
+                  },
+                  {
+                    "dName": "calcareous-spongekind"
+                  },
+                  {
+                    "dName": "demospongekind"
+                  }
+                ]
+              },
+              "placozoa": {
+                "dName": "placozoankind"
+              },
+              "ctenophora": {
+                "dName": "comb-jellykind"
+              },
+              "cnidaria": {
+                "dName": "cnidariankind",
+                "content": {
+                  "anthozoa": {},
+                  "cubozoa": {},
+                  "scyphozoa": {
+                    "dName": "jellyfishkind",
+                    "content": {
+                      "coronatae": {
+                        "dName": "crown-jellyfishkind",
+                        "content": [
+                          {
+                            "dName": "atolla-jellyfishkind"
+                          },
+                          {
+                            "dName": "thimble-jellyfishkind"
+                          },
+                          {
+                            "dName": "helmet-jellyfishkind"
+                          }
+                        ]
+                      },
+                      "rhizostomeae": {
+                        "dName": "rhizostome-jellyfishkind",
+                        "content": [
+                        ]
+                      },
+                      "semaeostomeae": {}
+                    }
+                  },
+                  "hydrozoa": {}
+                }
+              },
+              "myxozoa": {
+                "dName": ""
+              },
+              "bilateria": {
+                "dName": ""
+              }
+            }
+          },
+          "eumycota": {
+            "dName": "funguskind",
+            "content": {}
+          }
+        }
+      },
+      "amoebozoa": {
+        "dName": "amoebakind",
+        "content": [
+          {
+            "dName": "slime-moldkind"
+          }
+        ]
+      },
+      "excavata": {
+        "dName": "free-living-unicellular-flagellatekind"
+      }
+    }
+  },
+  "archaea": {
+    "dName": "archaeakind"
+  },
+
+  "plants": {
+    "bryophytes": {},
+    "gymnosperms": {},
+    "angiosperms": {
+      "categoryDisplayName": "flowerkind",
+      "content": {
+        "austrobaileyales": {
+
+        },
+        "magnoliids": {
+
+        }
+      }
+    }
+  },
+  "animals": {},
+  "fungi": {},
+  "slimeMolds": {},
+  "bacteria": {},
+  "viruses": {}
+}

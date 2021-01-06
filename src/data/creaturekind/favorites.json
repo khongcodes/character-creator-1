@@ -1,0 +1,13 @@
+{
+  "cnidarians": {
+    "jellyfish": [
+      "stygiomedusakind",
+      "granrojokind",
+      "common-kingslayerkind",
+    ],
+    "anthozoans": [
+      "dactylotrochuskind",
+      "cloak-anemonekind",
+    ]
+  }
+}

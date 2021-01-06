@@ -1,0 +1,134 @@
+[
+  {
+    "name": "The Fool",
+    "meaning_up": "Beginnings, innocence, spontaneity, a free spirit",
+    "meaning_inv": "Being taken advantage of, recklessness, risk-taking",
+    "desc": "With all his worldly possessions in one small pack, the Fool travels he knows not where. So filled with visions, questions, wonder and excitement is he, that he doesn't see the cliff he is likely to fall over. At his heel a small dog harries him (or tries to warn him of a possible mis-step)."
+  },
+  {
+    "name": "The Magician",
+    "meaning_up": "Willpower, inspired action, creation, manifestation",
+    "meaning_inv": "Manipulation, trickery, poor planning, untapped talents",
+    "desc": "Red and white coloring, the lemniscate (infinity symbol), a small wand, a table displaying a chalice, a pentacle, a staff (wand) and a sword. Skillful, self-confident, a powerful magus with the infinite as a halo floating above his head, the Magician mesmerizes the Fool. Raising his wand to heaven, pointing his finger to Earth, the Magician calls on all powers. Magically, the cloth of the Fool's pack unfolds upon the table, revealing its contents."
+  },
+  {
+    "name": "The High Priestess",
+    "meaning_up": "Intuition, unconscious knowing, inner voice, divine mystery",
+    "meaning_inv": "Secrets, disconnected from intuition, repressed feelings",
+    "desc": "Blue, white and black colors, pomegranates, the moon crown of Isis, veil, solar cross, crescent moon. Black & white lotus, pillars (B stands for Boaz, signifying negation, J stands for Jachin, meaning beginning). Scroll with the word Tora on it (either the Jewish Torah or an anagram of 'Tarot', where the final letter is left unseen). It is partly covered, signifying that this sacred knowledge is both explicit and implicit, it will only be revealed when the student is ready to look beyond the material realm."
+  },
+  {
+    "name": "The Empress",
+    "meaning_up": "Femininity, beauty, nature, nurturing, abundance",
+    "meaning_inv": "Dependence, smothering, emptiness, nosiness",
+    "desc": "A rod, a heart-shaped shield with the symbol for Venus. Her hair gold as wheat, wearing a crown of stars, and a white gown dotted with pomegranates. She rests back on her throne surrounded by an abundant field of grain and a lush garden."
+  },
+  {
+    "name": "The Emperor",
+    "meaning_up": "Authority, control, structure, a father figure",
+    "meaning_inv": "Tyranny, domination, rigidity, coldness",
+    "desc": "Throne with ram's heads, he holds an orb representing the world over which he rules and a scepter shaped like an ankh, the Egyptian symbol of life. He wears a crimson robe over armor, suggesting protection."
+  },
+  {
+    "name": "The Hierophant",
+    "meaning_up": "Tradition, spiritual wisdom, religious beliefs, institutions",
+    "meaning_inv": "Dogmatism, conformity, fire-and-brimstone judgement, mob rule",
+    "desc": "Twin pillars, Papal Cross staff, throne, hand raised in blessing, two acolytes. Three robes, three-tiered crown - representing three worlds he rules over (conscious, sub-conscious, super-conscious)."
+  },
+  {
+    "name": "The Lovers",
+    "meaning_up": "Union, harmony, relationships, choices",
+    "meaning_inv": "Loss of balance, one-sidedness, disharmony",
+    "desc": "Adam and Eve, the angel Raphael, an apple tree and serpent, a tree with twelve flames, a crossroads."
+  },
+  {
+    "name": "The Chariot",
+    "meaning_up": "Direction, movement, determination, victory",
+    "meaning_inv": "Lack of control or direction, internal conflict, aggression",
+    "desc": "Triumphal chariot, armored warrior, sun/moon symbols, lingam and yoni symbol (the encircled rod on the winged shield), black and white sphinxes. A canopy of stars and throne inside the car."
+  },
+  {
+    "name": "Strength",
+    "meaning_up": "Inner strength, compassion, courage, influence",
+    "meaning_inv": "Insecurity, raw emotion, self-doubt",
+    "desc": "A woman in white with a lemniscate hovering over her head, stroking or guiding a lion by its head. She wears a pure white, and a belt and crown of flowers."
+  },
+  {
+    "name": "The Hermit",
+    "meaning_up": "Soul-searching, introspection, being alone, inner guidance",
+    "meaning_inv": "Loneliness, isolation, being lost in the dark",
+    "desc": "A robed man carrying a lantern and staff. A barren landscape, a mountaintop."
+  },
+  {
+    "name": "Wheel of Fortune",
+    "meaning_up": "Good luck, change, cycles, motion",
+    "meaning_inv": "Bad luck, no control, resistance to change",
+    "desc": "A wheel turning, inscribed with four Hebrew letters - YHVH (Yod Heh Vau Heh), the unpronounceable name of God, as well as letters for 'TORA' or 'ROTA' or 'TAROT' - and alchemical symbols for the four elements. A snake, Anubis, a sphinx. An angel, an eagle, a lion, and a bull."
+  },
+  {
+    "name": "Justice",
+    "meaning_up": "Fairness, truth, clarity, necessary change",
+    "meaning_inv": "Dishonesty, unfairness, corruption",
+    "desc": "A simple crown. Seated between two pillars, scale in one hand, upright double-edged sword in the other."
+  },
+  {
+    "name": "The Hanged Man",
+    "meaning_up": "Pause, surrender, letting go, new perspectives",
+    "meaning_inv": "Delays, resistance, stalling, indecision",
+    "desc": "A man hanging by one foot from a T-cross made of living wood, as Odin from the World-Tree. His free leg is always bent to form an inverted '4'. His face is peaceful."
+  },
+  {
+    "name": "Death",
+    "meaning_up": "Endings and beginnings, transition, metamorphosis",
+    "meaning_inv": "Fear of change, stagnation, holding on",
+    "desc": "Skeletal Messenger of Death, black armor signifying invincibility and inevitability, carrying a black flag decorated with a white, five-petal rose. Appearing before a bishop and child."
+  },
+  {
+    "name": "Temperance",
+    "meaning_up": "Balance, synthesis, moderation, patience",
+    "meaning_inv": "Imbalance, separation of parts, extremes",
+    "desc": "An angel - one foot on land, the other in a pool of water - holding two chalices with water flowing between them."
+  },
+  {
+    "name": "The Devil",
+    "meaning_up": "Addiction, desire, indulgence in excess",
+    "meaning_inv": "Restriction, control",
+    "desc": "A winged, horned Baphomet, a black pedestal, a naked man and woman with horns and tails, loose chains, inverted pentagram."
+  },
+  {
+    "name": "The Tower",
+    "meaning_up": "Sudden change, upheaval, chaos, revelation, awakening",
+    "meaning_inv": "Fear of change, disaster avoided or delayed, status quo",
+    "desc": "A tower on a rocky outcrop, a powerful bolt of lightning, two figures falling from the tower."
+  },
+  {
+    "name": "The Star",
+    "meaning_up": "Hope, faith, renewal, purpose",
+    "meaning_inv": "Hopelessness, isolation, insecurity",
+    "desc": "A nude woman kneeling at the edge of a pool, pouring water from containers in both hands, nourishing the earth and renewing the pool. Behind her, seven stars and one giant star."
+  },
+  {
+    "name": "The Moon",
+    "meaning_up": "Unconscious, visions and illusions, dreams, intuition",
+    "meaning_inv": "Darkness, confusion, misinterpretation",
+    "desc": "A full moon (with a crescent within), twin towers, a dog and a wolf howling in a field, a stream that runs to the ocean, a crayfish emerging out of the water."
+  },
+  {
+    "name": "The Sun",
+    "meaning_up": "Warmth, illumination, vitality, rationality",
+    "meaning_inv": "Disorder, false truth, cynicism",
+    "desc": "The Sun, a naked child with a bright red flag on a calm, white horse, sunflowers growing above a brick wall."
+  },
+  {
+    "name": "Judgement",
+    "meaning_up": "Reflection, reckoning, awakening, resurrection and rebirth, letting go",
+    "meaning_inv": "Being haunted by one's past, inability to let go, self-loathing or self-doubt",
+    "desc": "Archangel Gabriel, messenger of God, trumpets: people rise nude from graves ready to be judged, a tidal wave."
+  },
+  {
+    "name": "The World",
+    "meaning_up": "Completion, integration, wholeness, travel",
+    "meaning_inv": "Incompletion, self-deception, stalling",
+    "desc": "Nude woman dancing, inside a large laurel wreath, holding two wands, looking to the past while moving toward the future. A cherub, an eagle, a lion, a bull, symbolic of the four elements."
+  }
+]
