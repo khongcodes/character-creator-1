@@ -177,9 +177,11 @@
           "fish-mouth-anemonekind",
           "cave-dwelling-anemonekind",
           "ivells-sea-anemonekind",
-          "burrowing-anemonekind",
           "lined-anemonekind",
-          "starlet-sea-anemonekind"
+          "starlet-sea-anemonekind",
+          "hells-fire-anemonekind",
+          "striped-colonial-anemonekind",
+          "zebra-striped-gorgonian-wrapperkind"
         ]
       },
       "coral": {
@@ -349,15 +351,212 @@
           "rough-leather-coralkind",
           "leather-coralkind",
           "spaghetti-finger-leather-coralkind",
-          "carnation-coralkind"
+          "carnation-coralkind",
+          "kenya-tree-coralkind",
+          "cauliflower-soft-coralkind",
+          "broccoli-coralkind",
+          "octocoralkind",
+          "cherry-blossom-coralkind",
+          "giant-antheliakind",
+          "pulsating-xenidkind",
+          "pulse-coralkind",
+          "bamboo-coralkind",
+          "red-tree-coralkind",
+          "bipinnate-sea-plumekind",
+          "flagellar-sea-fankind",
+          "yellow-gorgoniankind",
+          "nippled-sea-fankind",
+          "gorgonian-sea-fankind",
+          "nippled-sea-fankind",
+          "white-gorgoniankind",
+          "sinuous-sea-fankind",
+          "broad-sea-fankind",
+          "venus-sea-fankind",
+          "wide-mesh-sea-fankind",
+          "purple-sea-fankind",
+          "regal-sea-fankind",
+          "palmate-sea-fankind",
+          "colorful-sea-whipkind",
+          "violescent-sea-whipkind",
+          "black-sea-rodkind",
+          "caribbean-sea-whipkind",
+          "giant-slit-pore-sea-rodkind",
+          "porous-sea-rodkind",
+          "northern-sea-fankind",
+          "encrusting-gorgoniankind",
+          "deepwater-sea-fankind",
+          "black-sea-fankind",
+          "star-polypkind",
+          "red-coralkind",
+          "precious-coralkind",
+          "fan-coralkind",
+          "knotted-fan-coralkind",
+          "bubblegum-coralkind",
+          "snowflake-coralkind",
+          "glove-polypkind",
+          "organ-pipe-coralkind",
+          "valdivian-soft-coralkind",
+          "blue-coralkind",
+          "sea-penkind",
+          "radial-sea-penkind",
+          "sea-pansykind",
+          "tall-sea-penkind",
+          "slender-sea-penkind",
+          "feathery-sea-penkind",
+          "orange-sea-penkind",
+          "rugose-coralkind",
+          "tabular-coralkind",
+          "chalice-coralkind"
+        ]
+      },
+      "ceriantharia": {
+        "groupName": "tube-dwelling-anemonekind",
+        "specific": [
+          "cerianthariankind",
+          "burrowing-anemonekind",
+          "lesser-cylinder-anemonekind",
+          "cylinder-anemonekind",
+          "coloured-tube-anemonekind",
+          "firework-anemonekind"
         ]
       }
     }
   },
-  "myxozoa": {
-
-  },
   "bilateria": {
-
+    "groupName": "bilateriankind",
+    "subcategories": {
+      "xenacoelomorpha": {
+        "groupName": "xenocoelomorphkind",
+        "specific": [
+          "xenoturbellid-wormkind",
+          "acoelomorph-wormkind",
+          "acoelkind",
+          "panther-wormkind",
+          "redbugkind",
+          "rust-flatwormkind",
+          "deep-sea-giant-purple-sock-worm",
+          "purple-sock-worm"
+        ]
+      },
+      "nephrozoa": {
+        "groupName": "nephrozoankind",
+        "subcategories": {
+          "deuterostomia": {
+            "groupName": "deuterostomekind",
+            "subcategories": {
+              "chordata": {
+                "groupName": "chordatekind",
+                "subcategories": {
+                  "cephalochordata": {
+                    "groupName": "lanceletkind",
+                    "specific": [
+                      "cephalochordatekind",
+                      "amphioxuskind",
+                      "mud-lanceletkind",
+                      "florida-lanceletkind",
+                      "mediterranean-amphioxuskind",
+                      "shellhash-lanceletkind",
+                      "belchers-lanceletkind",
+                      "caribbean-lanceletkind",
+                      "californian-lanceletkind"
+                    ]
+                  },
+                  "olfactores": {
+                    "groupName": "olfactoreskind",
+                    "subcategories": {
+                      "tunicata": {
+                        "groupName": "tunicatekind",
+                        "subcategories": {
+                          "ascidiacea": {},
+                          "thaliacea": {},
+                          "larvacea": {}
+                        }
+                      },
+                      "vertebrata": {
+                        "groupName": "vertebratekind",
+                        "subcategories": {
+                          "cyclostomes": {},
+                          "chrondrichthyes": {},
+                          "actinopterygii": {},
+                          "actinistia": {},
+                          "dipnoi": {},
+                          "tetrapoda": {
+                            "groupName": "tetrapodkind",
+                            "subcategories": {
+                              "amphibia": {},
+                              "sauropsida": {},
+                              "synapsida": {}
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "ambulacraria": {
+                "groupName": "ambulacrariankind",
+                "subcategories": {
+                  "echinodermata": {
+                    "groupName": "echinodermkind",
+                    "subcategories": {
+                      "starfish": {},
+                      "seaCucumbers": {},
+                      "seaUrchins": {}
+                    }
+                  },
+                  "hemichordata": {
+                    "groupName": "hemichordatekind",
+                    "specific": [
+                      "acorn-wormkind"
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "protostomia": {
+            "groupName": "protostomekind",
+            "subcategories": {
+              "ecdysozoa": {
+                "groupName": "ecdysozoankind",
+                "subcategories": {
+                  "kinorhyncha": {},
+                  "priapulida": {},
+                  "nematoda": {},
+                  "nematomorpha": {},
+                  "loricifera": {},
+                  "onychophora": {},
+                  "tardigrada": {},
+                  "arthropoda": {}
+                }
+              },
+              "spiralia": {
+                "groupName": "spiraliankind",
+                "subcategories": {
+                  "gnathifera": {},
+                  "gastrotricha": {},
+                  "platyhelminthes": {},
+                  "mesozoa": {},
+                  "lophotrochozoa": {
+                    "groupName": "lophotrochozoankind",
+                    "subcategories": {
+                      "annelida": {},
+                      "brachiopoda": {},
+                      "bryozoa": {},
+                      "dicyemida": {},
+                      "entoprocta": {},
+                      "mollusca": {},
+                      "nemertea": {},
+                      "phoronida": {}
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }
