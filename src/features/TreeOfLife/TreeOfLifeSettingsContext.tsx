@@ -6,20 +6,10 @@
 
 import React from 'react';
 
-import TreeOfLifeSettings from "../features/TreeOfLife/TreeOfLife";
 
 ///////////////////////////////////////////////////////////////////////////////////////////////
 /////////////                                                                             SETUP
 
+
 ///////////////////////////////////////////////////////////////////////////////////////////////
 /////////////                                                                COMPONENTS & LOGIC
-
-const Home: React.FC = () => {
-  return (
-    <div>
-      <TreeOfLifeSettings/>
-    </div>
-  )
-}
-
-export default Home;

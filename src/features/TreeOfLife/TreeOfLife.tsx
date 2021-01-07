@@ -7,26 +7,57 @@
 import React, { useState } from "react";
 
 import rawAnimalData from "../../data/creaturekind/animals.json";
+import { validAnimalData } from "./data-reader";
 
 import { List, ListCategory } from "../../data/types";
 
 ///////////////////////////////////////////////////////////////////////////////////////////////
 /////////////                                                                             SETUP
+type TreeOfLifeSettingsProps = {};
+type TreeOfLifeSettingsState = {
+  keysForExcludingWholeBranch: string[],
+  keysForExcludingMembers: string[],
+  specificMembersExcluded: string[],
+  list: List
+};
 
 type TreeNodeProps = {
   animalCategory: ListCategory;
   thisNodeKey: string;
   parentNodeKeys: string[];
-}
+};
 
 ///////////////////////////////////////////////////////////////////////////////////////////////
 /////////////                                                                COMPONENTS & LOGIC
 
-const TreeOfLife = () => {
+class TreeOfLifeSettings extends React.Component<TreeOfLifeSettingsProps, TreeOfLifeSettingsState> {
+  state: TreeOfLifeSettingsState = {
+    keysForExcludingWholeBranch: [],
+    keysForExcludingMembers: [],
+    specificMembersExcluded: [],
+    list: rawAnimalData as List
+  }
+
+  // computeList() {}
+
+  render() {
+    console.log(this.state.list)
+    console.log(validAnimalData)
+    let unique = validAnimalData.filter((v, i, a) => a.indexOf(v) !== i);
+    console.log(unique.length===0)
+    return (
+      <div>
+        <TreeOfLifeDisplay />
+      </div>
+    )
+  }
+}
+
+const TreeOfLifeDisplay = () => {
   const animalDataAsList = rawAnimalData as List;
   const validAnimalGroupKeys = Object.keys(animalDataAsList).filter((animalGroupName) => animalDataAsList[animalGroupName].groupName !== undefined);
 
-  console.log(validAnimalGroupKeys.map(key => animalDataAsList[key]));
+  // console.log(validAnimalGroupKeys.map(key => animalDataAsList[key]));
 
   return (
     <div>
@@ -50,10 +81,10 @@ const TreeOfLife = () => {
 
 // recursive
 const TreeNode: React.FC<TreeNodeProps> = ({animalCategory, thisNodeKey, parentNodeKeys}) => {
-  console.log(`my name is ${thisNodeKey}. my parentNodeKeys are:`)
-  console.log(parentNodeKeys)
-  console.log()
-  console.log(animalCategory)
+  // console.log(`my name is ${thisNodeKey}. my parentNodeKeys are:`)
+  // console.log(parentNodeKeys)
+  // console.log()
+  // console.log(animalCategory)
 
   const [visible, setVisible] = useState<boolean>(true);
   const toggleVisibility = () => {visible ? setVisible(false) : setVisible(true)};
@@ -73,7 +104,7 @@ const TreeNode: React.FC<TreeNodeProps> = ({animalCategory, thisNodeKey, parentN
       <div
         style={{
           "width": "50%",
-          "height": "64px",
+          "maxHeight": "120px",
           "overflowY": "scroll"
         }}
       >
@@ -101,4 +132,4 @@ const TreeNode: React.FC<TreeNodeProps> = ({animalCategory, thisNodeKey, parentN
   )
 }
 
-export default TreeOfLife;
+export default TreeOfLifeSettings;
