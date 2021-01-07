@@ -7,7 +7,7 @@
 import React, { useState } from "react";
 
 import rawAnimalData from "../../data/creaturekind/animals.json";
-import { validAnimalData } from "./data-reader";
+import { validAnimalData, getRandomFromList } from "./data-reader";
 
 import { List, ListCategory } from "../../data/types";
 
@@ -43,8 +43,6 @@ class TreeOfLifeSettings extends React.Component<TreeOfLifeSettingsProps, TreeOf
   render() {
     console.log(this.state.list)
     console.log(validAnimalData)
-    let unique = validAnimalData.filter((v, i, a) => a.indexOf(v) !== i);
-    console.log(unique.length===0)
     return (
       <div>
         <TreeOfLifeDisplay />

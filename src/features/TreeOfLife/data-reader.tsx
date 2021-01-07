@@ -11,7 +11,7 @@ import { List, ListCategory } from "../../data/types";
 ///////////////////////////////////////////////////////////////////////////////////////////////
 /////////////                                                                             SETUP
 
-type ComputeListExceptionsConfigType = {
+type ExclusionsConfigType = {
   keysForExcludingWholeBranch: string[];
   keysForExcludingMembers: string[];
   specificMembersExcluded: string[];
@@ -29,16 +29,13 @@ export const eliminateInvalidFirstLevelNodes = (rawAnimalData: List) => {
   return validAnimalData;
 };
 
-export const computeList = (animalData: List, computeListExceptions: ComputeListExceptionsConfigType) => {
+export const computeList = (animalData: List, exclusionsConfig: ExclusionsConfigType) => {
   const validAnimalData = eliminateInvalidFirstLevelNodes(animalData);
   const returnList: string[] = [];
   const animalDataKeys = Object.keys(validAnimalData);
-  
-  const {keysForExcludingMembers,keysForExcludingWholeBranch,specificMembersExcluded} = computeListExceptions;
-  const exceptions = keysForExcludingMembers.concat(keysForExcludingWholeBranch, specificMembersExcluded);
 
   for (const key of animalDataKeys) {
-    returnList.push(...( unpackAndReduce([], key, validAnimalData[key], exceptions) ));
+    returnList.push(...( unpackAndReduce([], key, validAnimalData[key], exclusionsConfig) ));
   }
   return returnList;
 }
@@ -47,17 +44,22 @@ const unpackAndReduce = (
   returnArray: string[],
   currentKey: string,
   listCategory: ListCategory,
-  exceptions: string[]
+  exclusionsConfig: ExclusionsConfigType
   ) => {
+  
+  const {specificMembersExcluded} = exclusionsConfig;
+  const currentKeyIsWholeBranchExcluded = exclusionsConfig.keysForExcludingWholeBranch.includes(currentKey);
+  const currentKeyIsSpecificMemberExcluded = exclusionsConfig.keysForExcludingMembers.includes(currentKey);
 
-  if (!exceptions.includes(currentKey)) {
+  if (!currentKeyIsWholeBranchExcluded) {
     // does object have groupName? add to returnArray
     if (listCategory.groupName !== undefined) {
       returnArray.push(listCategory.groupName);
     }
     // does object have specific members? add to returnArray
-    if (listCategory.specific !== undefined) {
-      returnArray.push(...listCategory.specific);
+    if (!currentKeyIsSpecificMemberExcluded && listCategory.specific !== undefined) {
+      // add specific members where member is not included in exclusions array
+      returnArray.push(...listCategory.specific.filter(creatureName => !specificMembersExcluded.includes(creatureName)));
     }
     // does object have subcategories? open those up
     if (listCategory.subcategories !== undefined) {
@@ -66,7 +68,7 @@ const unpackAndReduce = (
           returnArray,
           key,
           listCategory.subcategories[key],
-          exceptions
+          exclusionsConfig
         );
       }
     }
@@ -80,7 +82,7 @@ const checkThatReducedListIsUnique = (list: string[]) => {
   return thereAreNoDuplicates ? true : duplicates;
 };
 
-const getRandomFromList = (list: string[]) => {
+export const getRandomFromList = (list: string[]) => {
   const index = Math.floor(Math.random() * list.length);
   return list[index];
 }
