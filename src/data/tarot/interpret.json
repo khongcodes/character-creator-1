@@ -1,0 +1,39 @@
+{
+  "tarotMajorArcana": [
+    {
+      "name": "The Fool",
+      "options": [
+        "Leave everything behind",
+        "Become humbled",
+        "Begin a great journey"
+      ]
+    },
+    {
+      "name": "The Magician",
+      "options": [
+        "Deceive to your advantage",
+        "Lead a great work",
+        "Perform a miracle"
+      ]
+    },
+    {
+      "name": "The High Priestess",
+      "options": [
+        "Protect secrets",
+        "Study the heavens"
+      ]
+    },
+    {
+      "name": "The Empress",
+      "options": [
+        "Nurture and mentor the young"
+      ]
+    },
+    {
+      "name": "The Emperor",
+      "options": [
+        "Command followers"
+      ]
+    }
+  ]
+}
