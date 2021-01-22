@@ -4,7 +4,7 @@
 ///////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////                                                                        IMPORTS
 
-import rawAnimalData from "../../data/creaturekind/animals.json";
+import rawAnimalData from "../../data/creaturekind/animals-detailed.json";
 
 import { List, ListCategory } from "../../data/types";
 

@@ -6,7 +6,7 @@
 
 import React, { useState } from "react";
 
-import rawAnimalData from "../../data/creaturekind/animals.json";
+import rawAnimalData from "../../data/creaturekind/animals-detailed.json";
 import { validAnimalData, getRandomFromList } from "./data-reader";
 
 import { List, ListCategory } from "../../data/types";
@@ -56,6 +56,7 @@ const TreeOfLifeDisplay = () => {
   const validAnimalGroupKeys = Object.keys(animalDataAsList).filter((animalGroupName) => animalDataAsList[animalGroupName].groupName !== undefined);
 
   // console.log(validAnimalGroupKeys.map(key => animalDataAsList[key]));
+  // console.log(animalDataAsList)
 
   return (
     <div>
