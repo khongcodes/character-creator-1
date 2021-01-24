@@ -20,9 +20,8 @@ https://en.wikipedia.org/wiki/Cyprinidae
 
 CURRENT
 Subfamily Xenocypridinae
-Tribe Opsariichthyini
-Genus Opsariichthys
-https://en.wikipedia.org/wiki/Opsariichthys
+Genus Hesperoleucus
+https://en.wikipedia.org/wiki/California_roach
 
 also not done, family inside Suborder Cyprinoidei:
 Family Leuciscidae
