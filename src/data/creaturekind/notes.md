@@ -11,12 +11,8 @@ class > order
 LAST COMPLETED:
 Chordata > Olfactores > Vertebrata > Actinopterygii > Teleost > Cypriniformes
 
-Cyprinoidei
-https://en.wikipedia.org/wiki/Cypriniformes
-
-Suborder Cyprinoidei
-Family Cyprinidae
-https://en.wikipedia.org/wiki/Cyprinidae
+Infraclass Teleost
+https://en.wikipedia.org/wiki/Teleost
 
 CURRENT
 Subfamily Xenocypridinae
