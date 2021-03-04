@@ -9,14 +9,24 @@ class > order
 
 
 LAST COMPLETED:
-Chordata > Olfactores > Vertebrata > Actinopterygii > Teleost > Characiformes
+Chordata > Olfactores > Vertebrata > Actinopterygii > Teleost > Neoteleostei > Myctophiformes
 
-Infraclass Teleost
-https://en.wikipedia.org/wiki/Teleost
+Clade Neoteleostei
+https://en.wikipedia.org/wiki/Neoteleostei
+
+Order Myctophiformes
+https://en.wikipedia.org/wiki/Myctophiformes
+
+Family Myctophidae
+https://en.wikipedia.org/wiki/Lanternfish
+
+Subfamily Lampanyctinae
 
 CURRENT
-family Distichondontidae
-https://en.wikipedia.org/wiki/Distichodontidae
+Genus Diaphus
+https://en.wikipedia.org/wiki/Diaphus
+https://www.inaturalist.org/taxa/87920-Diaphus
+
 
 
 
