@@ -20,12 +20,12 @@ https://en.wikipedia.org/wiki/Myctophiformes
 Family Myctophidae
 https://en.wikipedia.org/wiki/Lanternfish
 
-Subfamily Lampanyctinae
+Subfamily Myctophinae
 
 CURRENT
-Genus Diaphus
-https://en.wikipedia.org/wiki/Diaphus
-https://www.inaturalist.org/taxa/87920-Diaphus
+Genus Benthosema
+https://en.wikipedia.org/wiki/Benthosema
+https://www.inaturalist.org/taxa/86955-Benthosema
 
 
 
