@@ -23,8 +23,8 @@ https://en.wikipedia.org/wiki/Lanternfish
 Subfamily Myctophinae
 
 CURRENT
-Genus Benthosema
-https://en.wikipedia.org/wiki/Benthosema
+Genus Protomyctophum
+https://en.wikipedia.org/wiki/Protomyctophum
 https://www.inaturalist.org/taxa/86955-Benthosema
 
 
