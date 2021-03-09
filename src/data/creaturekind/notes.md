@@ -14,18 +14,18 @@ Chordata > Olfactores > Vertebrata > Actinopterygii > Teleost > Neoteleostei > M
 Clade Neoteleostei
 https://en.wikipedia.org/wiki/Neoteleostei
 
-Order Myctophiformes
-https://en.wikipedia.org/wiki/Myctophiformes
+Order Lampriformes
+https://en.wikipedia.org/wiki/Lampriformes#Classification
 
-Family Myctophidae
-https://en.wikipedia.org/wiki/Lanternfish
+Family Lampridae
+https://en.wikipedia.org/wiki/Opah
 
 Subfamily Myctophinae
 
 CURRENT
-Genus Protomyctophum
-https://en.wikipedia.org/wiki/Protomyctophum
-https://www.inaturalist.org/taxa/86955-Benthosema
+Genus Lampris
+https://en.wikipedia.org/wiki/Opah
+https://www.inaturalist.org/taxa/89332-Lampris
 
 
 
